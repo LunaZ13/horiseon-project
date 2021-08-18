@@ -4,10 +4,35 @@
     margin: 0;
 }
 
+/*body styles */
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* footer styles */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/*header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,15 +62,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,22 +72,26 @@ p {
     background-position: center;
 }
 
+/* floats image in content section to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* floats image in content section to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content section styles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* benefits section styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,6 +103,7 @@ p {
     background-color: #2589bd;
 }
 
+/* adds styles to icons class */
 .icons {
     margin-bottom: 32px;
     color: #ffffff;
@@ -99,7 +121,7 @@ p {
     max-width: 150px;
 }
 
-
+/* adds styles to services class */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,15 +141,3 @@ p {
     font-size: 36px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-footer h2 {
-    font-size: 20px;
-}
