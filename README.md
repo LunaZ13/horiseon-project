@@ -10,6 +10,7 @@ I needed to organize and consolidate the code in both HTML and the CSS files. Th
 
 3. added readme file - created a README file for the project, and gave a brief description of what i did. I also explained my commits as seen above. 
 
+![Alt text](assets/images/screenshot.png)
 
 Link to deployed page: [https://lunaz13.github.io/horiseon-project/]
 
